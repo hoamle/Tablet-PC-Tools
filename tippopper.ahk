@@ -1,3 +1,4 @@
+; Triggered by Windows + C
 #c::
 IfWinExist, ahk_class IPTip_Main_Window 
 	PostMessage,0x112,0xF060,,,ahk_class IPTip_Main_Window
